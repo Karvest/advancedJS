@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    border: 0;
+    background-color: whitesmoke;
+}
+#buttonDiv {
+    margin: auto;
+    text-align: center;
+}
+.image {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61VLj0eVCvL.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:50% 0%;
+}
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #b4985c; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+th, td {
+    border: 10px solid #b4985c;
+    border-radius: 3%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #656e2f9a;
+    text-align: center;
+}
+table {
+    background-color: #f3f3f373;
+}
